@@ -1,0 +1,18 @@
+
+platform :ios, '10.0'
+
+use_frameworks!
+
+# ignore all warnings from all pods
+inhibit_all_warnings!
+
+target '{{cookiecutter.app_name}}' do
+
+  pod 'SwiftFormat/CLI'
+
+  # development pods
+
+  target '{{cookiecutter.app_name}}Tests' do
+    inherit! :search_paths
+  end
+end
