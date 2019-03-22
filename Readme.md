@@ -1,4 +1,4 @@
-## iOS Project Template
+## iOS Subpods Template
 
 A template to jumpstart your next iOS project integrating best practices and tools.
 Supports Xcode 10, Swift 4.2
@@ -13,15 +13,11 @@ For a more in-depth writeup of the motivation and project, check out [my blog po
 
 ## Contains (best practices)
 
-* [Swiftlint](https://github.com/realm/SwiftLint) integration - A tool to enforce Swift style and conventions
-* [R.swift](https://github.com/mac-cain13/R.swift) integration - strong typed, autocompleted resources like images, fonts and segues
 * [Separate AppDelegate for app and tests](https://marcosantadev.com/fake-appdelegate-unit-testing-swift/)
-* Dev/Staging/Prod configurations
 * [Compiler performance profiling flags](https://www.jessesquires.com/blog/measuring-compile-times-xcode9/)
 * [Cocoapods integration](https://cocoapods.org)
 * [Gemfile for managing Cocoapods version](https://guides.cocoapods.org/using/a-gemfile.html)
 * Standard Readme
-* Standard project structure
 * [Standard gitignore](https://github.com/github/gitignore/blob/master/Swift.gitignore)
 * Base classes for handling deeplinks and notifications
 
@@ -37,7 +33,7 @@ brew install cookiecutter
 The project uses Cookiecutter for project templating. To create a new project from this template just run:
 
 ```
-cookiecutter https://github.com/pgorzelany/iOS-project-template.git
+cookiecutter https://github.com/isxq/SubpodsTemplate.git
 ```
 
 You will get a prompt to give a new app name. Thats it, you should have a new folder with your new app created based on this template!
@@ -66,3 +62,5 @@ bundle exec pod install
 ## Additional configuration
 
 You will have to manually configure the bundle id of the main target and test target.
+
+
