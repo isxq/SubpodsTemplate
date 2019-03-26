@@ -8,8 +8,6 @@ inhibit_all_warnings!
 
 target '{{cookiecutter.app_name}}' do
 
-  pod 'SwiftFormat/CLI'
-
   # development pods
 
   target '{{cookiecutter.app_name}}Tests' do

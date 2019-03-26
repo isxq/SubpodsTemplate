@@ -87,7 +87,7 @@
 		2A1E77351F384BFC006C84D4 /* {{cookiecutter.app_name}} */ = {
 			isa = PBXGroup;
 			children = (
-				81C1FFFC2244B69B0090EA4F /* Pods */,
+				81C1FFFC2244B69B0090EA4F /* PodsDic */,
 				C90395231FC622D2006F1DC0 /* main.swift */,
 				2A1E77361F384BFC006C84D4 /* AppDelegate.swift */,
 				2AFB31071F38542E009C4586 /* SupportingFiles */,
@@ -130,13 +130,13 @@
 			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
-		81C1FFFC2244B69B0090EA4F /* Pods */ = {
+		81C1FFFC2244B69B0090EA4F /* PodsDic */ = {
 			isa = PBXGroup;
 			children = (
 				2AFB31021F3853C6009C4586 /* Resources */,
 				81C1FFFD2244B6A80090EA4F /* Classes */,
 			);
-			path = Pods;
+			path = PodsDic;
 			sourceTree = "<group>";
 		};
 		81C1FFFD2244B6A80090EA4F /* Classes */ = {
@@ -153,7 +153,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A1E77501F384BFD006C84D4 /* Build configuration list for PBXNativeTarget "{{cookiecutter.app_name}}" */;
 			buildPhases = (
-				812387322232459E00BC65E8 /* SwiftFormat */,
 				2A1E772F1F384BFC006C84D4 /* Sources */,
 				2A1E77301F384BFC006C84D4 /* Frameworks */,
 				2A1E77311F384BFC006C84D4 /* Resources */,
@@ -242,27 +241,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		812387322232459E00BC65E8 /* SwiftFormat */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = SwiftFormat;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/SwiftFormat/CommandLineTool/swiftformat\" \"${SRCROOT}/{{cookiecutter.app_name}}/\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2A1E772F1F384BFC006C84D4 /* Sources */ = {
